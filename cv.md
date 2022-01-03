@@ -6,7 +6,7 @@
    * Location: Minsk, Belarus
    * Phone: +375 44 792-57-45
    * Email: artem_5511@mail.ru
-   * GitHub: [artem5511](https://github.com/artem5511
+   * GitHub: [artem5511](https://github.com/artem5511)
 
 ##About Me
 
