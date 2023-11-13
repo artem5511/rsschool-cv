@@ -1,6 +1,6 @@
-[### rsschool-cv](https://github.com/artem5511/rsschool-cv)
+###[rsschool-cv](https://github.com/artem5511/rsschool-cv)
 ---
-##Artsem Schukalovich
+##**Artsem Schukalovich**  :smile
 ---
 ####Contacts
 ---
@@ -15,3 +15,5 @@
 ####Education
 ---
 ####English
+---
+![](./photo_2022-10-30_16-45-16.jpg)
