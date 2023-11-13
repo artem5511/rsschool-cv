@@ -1,1 +1,1 @@
-https://github.com/artem5511/rsschool-cv
+https://artem5511/github.com/rsschool-cv
