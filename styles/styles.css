@@ -119,17 +119,29 @@
     color: #c7254e;
   }
   
+  
+  .footer__logo {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 600px) {
+    .footer__logo {
+      width: 100px;
+      height: 33px;
+    }
+  }
+
   .footer {
     margin-top: 20px;
     font-size: 14px;
     color: #666666;
   }
   
-  .footer__logo {
-    height: 40px;
-    vertical-align: middle;
-    margin: 0 5px;
-  }
+ 
   
   @media (max-width: 600px) {
     .nav__list {
