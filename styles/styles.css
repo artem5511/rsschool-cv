@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .header,
+  .main,
+  .footer {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .header__title {
+    font-size: 32px;
+    color: #222222;
+    margin-bottom: 16px;
+  }
+  
+  .nav__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav__link {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .nav__link:hover,
+  .nav__link:focus {
+    text-decoration: underline;
+  }
+  
+  .avatar {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+  }
+  
+  .main {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section__title {
+    font-size: 22px;
+    color: #0066cc;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .section__text {
+    color: #555555;
+  }
+  
+  .contact-list,
+  .skills-list,
+  .education-list,
+  .footer__list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contact-list__item,
+  .skills-list__item,
+  .education-list__item {
+    margin-bottom: 8px;
+  }
+  
+  .contact-list__link,
+  .footer__link {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .contact-list__link:hover,
+  .footer__link:hover {
+    text-decoration: underline;
+  }
+  
+  .code-block {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .code-block__content {
+    color: #c7254e;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .footer__logo {
+    height: 40px;
+    vertical-align: middle;
+    margin: 0 5px;
+  }
+  
+  @media (max-width: 600px) {
+    .nav__list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    body {
+      padding: 10px;
+    }
+  
+    .section__title {
+      font-size: 20px;
+    }
+  } 
